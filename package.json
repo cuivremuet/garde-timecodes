@@ -1,0 +1,16 @@
+{
+  "name": "garde-timecodes",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Vérifie les raccords d'une liste de timecodes à fréquence entière.",
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test.mjs",
+    "demo": "node main.mjs example.json exemple-sortie.json"
+  }
+}
+
